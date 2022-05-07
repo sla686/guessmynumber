@@ -53,3 +53,7 @@ document.querySelector('.restart').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '25rem';
 });
+
+console.log(
+  'Created by Viacheslav Semushin. Initial design by Jonas Schmedtmann.'
+);
