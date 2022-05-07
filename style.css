@@ -29,7 +29,7 @@ header {
 }
 
 main {
-  height: 55vh;
+  height: 50vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -139,6 +139,7 @@ p {
 footer {
   font-size: 1.5rem;
   width: 100%;
+  height: 5vh;
   bottom: 0px;
   text-align: center;
 }
