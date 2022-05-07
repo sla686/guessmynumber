@@ -1,8 +1,8 @@
 'use strict';
 
-let secretNumber = Math.trunc(Math.random() * 30) + 1;
 let score = 30;
 let highscore = 0;
+let secretNumber = Math.trunc(Math.random() * 30) + 1;
 
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
@@ -10,10 +10,14 @@ const displayMessage = function (message) {
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
+  console.log(guess);
 
   // When there is no input
-  if (!guess) {
+  if (!(guess || guess === 0)) {
     displayMessage('No number!');
+  } else if (guess < 1 || guess > 30) {
+    displayMessage('Your number must be between 1 and 30!');
+    document.querySelector('.guess').value = '';
 
     // When player wins
   } else if (guess === secretNumber) {
