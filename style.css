@@ -201,9 +201,9 @@ footer p {
   }
   .left {
     margin-top: 10rem;
-    width: 85%;
+    width: 100%;
   }
   .right {
-    width: 85%;
+    width: 100%;
   }
 }
