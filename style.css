@@ -18,6 +18,15 @@ body {
   /* background-color: #60b347; */
 }
 
+footer {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
 /* LAYOUT */
 header {
   position: relative;
