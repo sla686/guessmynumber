@@ -20,10 +20,6 @@ body {
   /* background-color: #60b347; */
 }
 
-footer {
-  color: rgba(255, 255, 255, 0.4);
-}
-
 a {
   text-decoration: none;
   color: #eee;
@@ -173,6 +169,7 @@ footer {
   margin-bottom: 2vh;
   height: 3vh;
   width: 100%;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 footer p {
