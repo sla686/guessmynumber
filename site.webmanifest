@@ -4,7 +4,7 @@
   "description": "Guess the number from the specified range!",
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "/icons/favicon.ico",
       "sizes": "48x48",
       "type": "image/x-icon"
     },
