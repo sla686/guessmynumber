@@ -4,11 +4,6 @@
   "description": "Guess the number from the specified range!",
   "icons": [
     {
-      "src": "/icons/favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
-    },
-    {
       "src": "/icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
