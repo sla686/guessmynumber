@@ -1,10 +1,11 @@
 {
   "name": "Guess my number!",
   "short_name": "Guess my number!",
+  "description": "Guess the number from the specified range!",
   "icons": [
     {
-      "src": "/icons/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "favicon.ico",
+      "sizes": "64x64 48x48 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
@@ -18,7 +19,8 @@
       "type": "image/png"
     }
   ],
+  "start_url": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "browser"
+  "display": "standalone"
 }
